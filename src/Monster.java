@@ -1,14 +1,14 @@
-public class Monstet {
+public class Monster {
     String name;
     int hp;
     int maxHp;
     int attack;
     int defense;
 
-    public Monstet() {
+    public Monster() {
     }
 
-    public Monstet(String name, int hp, int maxHp, int attack, int defense) {
+    public Monster(String name, int hp, int maxHp, int attack, int defense) {
         this.name = name;
         //maxHp는 생성 시의 hp와 동일한 값으로 초기화해주세요.
         this.hp = maxHp;
